@@ -60,7 +60,9 @@
 
 ### **Step 2: Get YouTube API Credentials**
 **This is REQUIRED - the app won't work without it!**
+
 **Note: During this step, please ensure you are signed into the correct Google account. Not doing so may result in uploading videos to a different Youtube channel**
+
 1. Go to [Google Cloud Console](https://console.cloud.google.com/)
 2. Create a new project or select existing project
 3. **Enable APIs**:
