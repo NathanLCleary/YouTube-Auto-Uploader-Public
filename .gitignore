@@ -1,0 +1,8 @@
+# Releases
+*.exe
+*.zip
+*.msi
+
+# Temporary files
+*.tmp
+*.log
