@@ -10,12 +10,12 @@
 |--------------|------------------|
 | **Languages** | python |
 | **Technologies** | gui/api/automation |
-| **Frameworks** | none |
+| **Frameworks** | tkinter |
 | **Status** | showcase |
 | **Year** | 2024 |
-| **Featured** | false |
-| **HasDownload** | false |
-| **DownloadUrl** | none |
+| **Featured** | true |
+| **HasDownload** | true |
+| **DownloadUrl** | https://github.com/NathanLCleary/YouTube-Auto-Uploader-Public/releases/latest |
 
 ---
 
