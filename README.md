@@ -1,240 +1,130 @@
-# 🎬 YouTube Auto Uploader
+# 🎯 YouTube Auto Uploader Public
 
-**Automate your YouTube video uploads with ease!** A powerful desktop application that monitors folders, queues videos, and uploads them automatically to YouTube with customizable settings.
+**Professional Portfolio Showcase - YouTube Auto Uploader Public**
 
 ---
 
-## 📥 **DOWNLOAD LATEST VERSION**
+## 📊 **PROJECT METADATA**
 
-### **[⬇️ Download YouTube Auto Uploader v1.0.1](https://github.com/NathanLCleary/YouTube-Auto-Uploader-Public/releases/latest)**
-
-**File Size**: ~36MB | **Platform**: Windows 10/11 (64-bit) | **License**: Free for Personal Use
+| **Category** | professional |
+|--------------|------------------|
+| **Languages** | python |
+| **Technologies** | gui/api/automation |
+| **Frameworks** | none |
+| **Status** | showcase |
+| **Year** | 2024 |
+| **Featured** | false |
+| **HasDownload** | false |
+| **DownloadUrl** | none |
 
 ---
 
 ## ✨ **KEY FEATURES**
 
-### 🤖 **Automated Workflow**
-- **Folder Monitoring** - Automatically detects new videos in watch folders
-- **Smart Queuing** - Organizes uploads with priority and scheduling
-- **Batch Processing** - Upload multiple videos simultaneously
-- **Auto-Retry Logic** - Handles failed uploads with intelligent retry system
+### 🚀 **Core Functionality**
+- **Primary Feature** - Main functionality of the application
+- **Secondary Feature** - Additional capabilities
+- **User Interface** - Desktop GUI application
 
-### 🎮 **Gaming Integration**
-- **Game Detection** - Pauses uploads during competitive gaming sessions
-- **Performance Mode** - Low-priority processing to avoid frame drops
-- **Custom Game Lists** - Configure which games trigger pause mode
-
-### 🎨 **User Experience**
-- **Modern GUI** - Clean, intuitive desktop interface
-- **System Tray** - Runs quietly in background with tray notifications
-- **Hotkey Support** - Quick access with customizable keyboard shortcuts
-- **Real-time Monitoring** - Live upload progress and status updates
-
-### ⚙️ **Advanced Configuration**
-- **Template System** - Save and reuse video metadata templates
-- **Auto-Title Generation** - Smart title creation based on file names
-- **Privacy Controls** - Set default privacy levels and playlist assignments
-- **File Management** - Auto-delete local files after successful upload
+### 🛠️ **Technical Features**
+- **GUI Applications** - Implementation details
+- **API Integration** - Implementation details
+- **Automation** - Implementation details
 
 ---
 
-## 🖥️ **SYSTEM REQUIREMENTS**
+## 🖥️ **TECHNICAL REQUIREMENTS**
 
 | Component | Minimum | Recommended |
 |-----------|---------|-------------|
-| **OS** | Windows 10 (64-bit) | Windows 11 (64-bit) |
-| **RAM** | 4GB | 8GB+ |
+| **OS** | Windows 10/Linux/macOS | Latest OS version |
+| **Runtime** | Python 3.8+ | Python 3.11+ |
+| **Memory** | 512MB RAM | 2GB+ RAM |
 | **Storage** | 100MB free space | 500MB+ |
-| **Internet** | Stable broadband | High-speed broadband |
-| **YouTube** | Google account with API access | YouTube channel |
+| **Dependencies** | Standard libraries | Internet connection |
 
 ---
 
-## 📋 **COMPLETE INSTALLATION GUIDE**
+## 📋 **INSTALLATION & SETUP**
 
-### **Step 1: Download & Extract**
-1. Click the download link above
-2. Extract the ZIP file to a permanent location (e.g., `C:\YouTubeAutoUploader\`)
-3. **Important**: Don't run from temporary folders or Downloads
+### **Step 1: Clone Repository**
+```bash
+git clone https://github.com/NathanLCleary/YouTube-Auto-Uploader-Public.git
+cd YouTube-Auto-Uploader-Public
+```
 
-### **Step 2: Get YouTube API Credentials**
-**This is REQUIRED - the app won't work without it!**
+### **Step 2: Install Dependencies**
+```bash
+pip install -r requirements.txt
+```
 
-**Note: During this step, please ensure you are signed into the correct Google account. Not doing so may result in uploading videos to a different Youtube channel**
+### **Step 3: Configuration**
+Configure API keys and credentials as needed
 
-1. Go to [Google Cloud Console](https://console.cloud.google.com/)
-2. Create a new project or select existing project
-3. **Enable APIs**:
-   - Search for "YouTube Data API v3"
-   - Click "Enable"
-4. **Create Credentials**:
-   - Go to "Credentials" → "Create Credentials" → "OAuth 2.0 Client IDs"
-   - Choose "Desktop Application"
-   - Name it "YouTube Auto Uploader"
-5. **Download JSON**:
-   - Click the download button next to your credential
-   - Rename the file to `client_secret.json`
-   - Place it in the same folder as `YouTubeAutoUploader.exe`
-
-### **Step 3: First Run Setup**
-1. **Right-click** `YouTubeAutoUploader.exe` → **"Run as Administrator"** (first time only)
-2. The app will create necessary folders and configuration files
-3. **Authenticate**: Browser will open for YouTube account authorization
-4. **Configure Settings**: Set your watch folder, upload preferences, etc.
-
-### **Step 4: Auto-Startup Configuration**
-**To run automatically when Windows starts:**
-
-#### **Method 1: Built-in Auto-Startup (Recommended)**
-1. Open the app settings
-2. Check "Start with Windows"
-3. The app will copy itself to the Windows startup folder
-
-#### **Method 2: Manual Startup Setup**
-1. Press `Win + R`, type `shell:startup`, press Enter
-2. Copy `YouTubeAutoUploader.exe` to this folder
-3. Or create a shortcut to the exe in this folder
-
-#### **Method 3: Task Scheduler (Advanced)**
-1. Open Task Scheduler (`taskschd.msc`)
-2. Create Basic Task → "Start a program"
-3. Point to `YouTubeAutoUploader.exe`
-4. Set trigger to "When I log on"
-5. Check "Run with highest privileges"
+### **Step 4: Run Application**
+```bash
+python main.py
+```
 
 ---
 
-## 🎯 **QUICK START GUIDE**
+## 🎯 **USAGE GUIDE**
 
-### **Basic Workflow**
-1. **Set Watch Folder**: Choose where you save videos (e.g., OBS recordings folder)
-2. **Configure Defaults**: Set default title, description, tags, privacy level
-3. **Start Monitoring**: Enable auto-upload and let it run in background
-4. **Drop Videos**: Save videos to watch folder → automatic upload begins
+### **Basic Usage**
+1. **Launch**: Start the application using the run command above
+2. **Navigate**: Use the graphical interface to navigate features
+3. **Operate**: Interact with the application features
 
-### **Pro Tips**
-- Use **template system** for consistent metadata across videos
-- Enable **game detection** if you're a content creator
-- Set **auto-delete** to save disk space after uploads
-- Use **hotkeys** for quick access while gaming/recording
+### **Advanced Features**
+
+- **API Integration**: Connect with external services
+- **Automation**: Configure automated processes
 
 ---
 
-## 🛠️ **TROUBLESHOOTING**
+## 🛠️ **TECHNOLOGIES USED**
 
-### **Common Issues & Solutions**
+### **Programming Languages**
+- **Python**: Desktop application development
 
-#### **❌ App Won't Start**
-- **Run as Administrator** (right-click exe → "Run as administrator")
-- **Check antivirus** - add exe to exclusions if blocked
-- **Verify extraction** - ensure all files extracted properly
-- **Windows Defender** - allow app through SmartScreen
-
-#### **❌ "No client_secret.json" Error**
-- **Download credentials** from Google Cloud Console
-- **Rename file** to exactly `client_secret.json`
-- **Place in same folder** as the exe file
-- **Check file permissions** - ensure it's readable
-
-#### **❌ Upload Failures**
-- **Check internet connection** - ensure stable broadband
-- **Verify YouTube quota** - API has daily limits
-- **File format support** - use MP4, AVI, MOV, MKV, FLV, WMV
-- **File size limits** - YouTube has upload size restrictions
-
-#### **❌ Performance Issues**
-- **Enable low priority mode** in settings
-- **Reduce concurrent uploads** (default: 1)
-- **Close unnecessary programs** during uploads
-- **Check disk space** - ensure sufficient free space
-
-#### **❌ Authentication Problems**
-- **Clear browser cache** and retry authorization
-- **Use incognito/private mode** for authentication
-- **Check Google account permissions** in account settings
-- **Regenerate credentials** if persistent issues
+### **Frameworks & Libraries**
+- **GUI Applications**: Desktop graphical user interface
+- **API Integration**: External service integration
+- **Automation**: Process automation and scripting
 
 ---
 
-## 🎫 **SUPPORT & BUG REPORTS**
+## 👨💻 **DEVELOPMENT**
 
-### **Get Help**
+### **Development Setup**
+1. Follow installation steps above
+2. Set up virtual environment
+3. No additional setup required
 
-#### **📋 Create a Support Ticket**
-**[🎫 Open Support Ticket](https://github.com/NathanLCleary/YouTube-Auto-Uploader-Public/issues/new?template=support_request.md)**
+### **Project Structure**
+```
+YouTube-Auto-Uploader-Public/
+├── src/                 # Source code
+├── assets/             # Project assets
+├── docs/               # Documentation
+└── README.md           # This file
+```
 
-**When reporting issues, please include:**
-- Windows version (e.g., Windows 11 22H2)
-- App version (check About dialog)
-- Error messages (exact text or screenshots)
-- Steps to reproduce the problem
-- Log files (if available)
+### **Contributing**
+This is part of Nathan Cleary's portfolio. Feel free to fork and adapt for educational purposes.
 
-#### **🐛 Report Bugs**
-**[🐛 Report Bug](https://github.com/NathanLCleary/YouTube-Auto-Uploader-Public/issues/new?template=bug_report.md)**
+---
 
-#### **💡 Feature Requests**
-**[💡 Request Feature](https://github.com/NathanLCleary/YouTube-Auto-Uploader-Public/issues/new?template=feature_request.md)**
+## 📄 **LICENSE & CONTACT**
 
-#### **📧 Direct Contact**
+### **License**
+This project is part of Nathan Cleary's software development portfolio. Free for educational and personal use.
+
+### **Contact**
+- **GitHub**: [NathanLCleary](https://github.com/NathanLCleary)
+- **LinkedIn**: [nathanlcleary](https://www.linkedin.com/in/nathanlcleary/)
 - **Email**: nathanlcleary@gmail.com
-- **Response Time**: Usually within 24-48 hours
-- **Priority Support**: Available for critical issues
 
 ---
 
-## 📊 **VERSION HISTORY**
-
-### **v1.0.1 (Current) - 2024-09-28**
-- ✅ Fixed app data file handling
-- ✅ Improved error handling and stability
-- ✅ Enhanced setup instructions
-- ✅ Better credential security
-
-### **v1.0.0 - 2024-09-28**
-- 🎉 Initial public release
-- ✨ GUI interface with video management
-- ⚡ Automated upload scheduling
-- 📊 Real-time monitoring system
-- 🔄 Batch processing capabilities
-- 🎮 Gaming integration features
-
----
-
-## 🔒 **PRIVACY & SECURITY**
-
-### **Your Data is Safe**
-- ✅ **No data collection** - Zero telemetry or analytics
-- ✅ **Local processing** - Everything happens on your computer
-- ✅ **Secure credentials** - API keys stored locally only
-- ✅ **No cloud dependency** - Works entirely offline (except YouTube uploads)
-- ✅ **Open source approach** - Transparent development process
-
-### **What Data is Used**
-- **YouTube uploads only** - Video files and metadata sent to YouTube
-- **Local settings** - Preferences stored in local files
-- **Upload history** - Tracked locally for queue management
-- **No personal data** - No collection of personal information
-
----
-
-## 📄 **LICENSE & TERMS**
-
-**Free for Personal Use** - This software is provided free of charge for personal, non-commercial use.
-
-**Commercial Use** - Contact for licensing if using in commercial environments.
-
-**Disclaimer** - Software provided "as-is" without warranty. Use at your own risk.
-
----
-
-## 🚀 **GET STARTED TODAY!**
-
-### **[⬇️ Download YouTube Auto Uploader v1.0.1](https://github.com/NathanLCleary/YouTube-Auto-Uploader-Public/releases/latest)**
-
-**Ready to automate your YouTube uploads?** Download now and start saving hours of manual upload time!
-
----
-
-*Made with ❤️ for content creators who want to focus on creating, not uploading.*
+*Part of Nathan Cleary's software development portfolio - showcasing GUI Applications, API Integration, Automation expertise*
